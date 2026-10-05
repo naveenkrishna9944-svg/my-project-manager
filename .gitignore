@@ -1,0 +1,19 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.vscode/.studio/
+
+# Dependencies and generated output
+node_modules/
+client/node_modules/
+dist/
+client/dist/
+build/
+coverage/
+
+# Logs and local files
+*.log
+*.local
+.DS_Store
+Thumbs.db
